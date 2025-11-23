@@ -164,3 +164,132 @@ newer older wrong "A" = char 65 -> 5*13 -> charA "e" = char 65 -> 5*13 -> charE 
 a step function that defines a positive value where x and  y > 0 another stepped function that shall be an upper boundry of a graph that looks like the analog activation curve of a transistor, so to graphs upper (digital) and analog ones
 e.g (an analog graph)
 explicit(stepFu(x,6),x,-10,67), key   = "fs : a computed element that can be plug into a Ln.. function",    Certain point are calculated intersections of graphs The six is computationall yimportant because it refers to the 6th step when counting the groups in our Goldbach groups strategy.  So now there is a whole system capable of visiualizing/representing number from natural to complex and ffts that connect digital with step funnctions to analog to real or sinusoidal functions. The basic metrics are Frauendorf conform lists amd matrices. This all is very nice but further down there is the attempt to visiualize/enter chars into this system. That what the next 2d plot is about. Here we start with the char encodeing of wxmaxima(lisp?) and use our Frauendorf metrices and step function with periodic variables( make them periodic) there is the fst attempt ot start with the vowels a e i o u. This could be a very interesting approach to any machien learning as well because all chars and therefore code can be put into this form. We have basically a software for an unbuild computer that runs very differently and the a e i ou is the first program.  
+
+<!-- ===== Centered feature overview: Energy, Symmetry, Smoothness ===== -->
+<div id="feature-overview" style="max-width: 960px; margin: 0 auto; padding: 24px 16px; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.5;">
+
+  <!-- Title and tagline -->
+  <div style="text-align:center; margin-bottom: 16px;">
+    <h2 style="margin:0 0 4px;">Vowel feature geometry</h2>
+    <p style="margin:4px 0 0; color:#666;">
+      Energy, symmetry, and smoothness in the sinus–step composite, aligned with your FFT–matrix workflow.
+    </p>
+  </div>
+
+  <!-- Quick legend -->
+  <div style="display:flex; gap:16px; justify-content:center; align-items:center; flex-wrap:wrap; margin: 12px 0 20px;">
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span style="width:14px; height:14px; background:#2ecc71; border-radius:50%; display:inline-block;"></span>
+      <span style="font-weight:600;">A</span>
+    </div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span style="width:14px; height:14px; background:#1abc9c; border-radius:50%; display:inline-block;"></span>
+      <span style="font-weight:600;">E</span>
+    </div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span style="width:14px; height:14px; background:#e74c3c; border-radius:50%; display:inline-block;"></span>
+      <span style="font-weight:600;">I</span>
+    </div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span style="width:14px; height:14px; background:#9b59b6; border-radius:50%; display:inline-block;"></span>
+      <span style="font-weight:600;">O</span>
+    </div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span style="width:14px; height:14px; background:#f39c12; border-radius:50%; display:inline-block;"></span>
+      <span style="font-weight:600;">U</span>
+    </div>
+  </div>
+
+  <!-- Three-column metric cards -->
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-bottom: 24px;">
+    <div style="border:1px solid #eee; border-radius:8px; padding:12px;">
+      <h3 id="energy" style="margin:0 0 8px; font-size:1.05rem;">Energy</h3>
+      <p style="margin:0;">
+        ∫ f(x)^2 dx over window L. Captures amplitude and total power of the composite signal
+        stepFu + fs + charX. Useful for coarse separation and centroid stability.
+      </p>
+    </div>
+    <div style="border:1px solid #eee; border-radius:8px; padding:12px;">
+      <h3 id="symmetry" style="margin:0 0 8px; font-size:1.05rem;">Symmetry</h3>
+      <p style="margin:0;">
+        ∫ f(x) · f(−x) dx over L. Highlights bilateral structure; distinguishes pairs like E vs I
+        when energy alone overlaps.
+      </p>
+    </div>
+    <div style="border:1px solid #eee; border-radius:8px; padding:12px;">
+      <h3 id="smoothness" style="margin:0 0 8px; font-size:1.05rem;">Smoothness</h3>
+      <p style="margin:0;">
+        ∫ (df/dx)^2 dx via sampled derivatives. Measures edge content and band sharpness from the step + sinus blend.
+      </p>
+    </div>
+  </div>
+
+  <!-- Plots row: energy–symmetry + energy–smoothness -->
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:16px; align-items:start;">
+
+    <figure style="margin:0;">
+      <figcaption style="font-weight:600; margin-bottom:8px;">Energy vs Symmetry</figcaption>
+      <!-- Replace with your image path or an embedded SVG -->
+      <img src="docs/plots/energy_symmetry.png" alt="Energy vs Symmetry scatter with centroids" style="width:100%; border:1px solid #eee; border-radius:8px;">
+      <p style="margin:8px 0 0; color:#666; font-size:0.95rem;">
+        Centroids and samples for A, E, I, O, U; nearest‑centroid margins annotated.
+      </p>
+    </figure>
+
+    <figure style="margin:0;">
+      <figcaption style="font-weight:600; margin-bottom:8px;">Energy vs Smoothness</figcaption>
+      <img src="docs/plots/energy_smoothness.png" alt="Energy vs Smoothness scatter" style="width:100%; border:1px solid #eee; border-radius:8px;">
+      <p style="margin:8px 0 0; color:#666; font-size:0.95rem;">
+        Reveals edge‑driven differences from step function coupling; complements symmetry separation.
+      </p>
+    </figure>
+
+  </div>
+
+  <!-- Optional: Venn concept linking metrics -->
+  <div style="display:flex; gap:16px; align-items:center; justify-content:center; margin:22px 0;">
+    <div style="position:relative; width:280px; height:160px;">
+      <div style="position:absolute; left:35px; top:20px; width:140px; height:120px; background:#ffcc80; opacity:0.45; border-radius:50%;"></div>
+      <div style="position:absolute; left:100px; top:20px; width:140px; height:120px; background:#ffd54f; opacity:0.45; border-radius:50%;"></div>
+      <div style="position:absolute; left:65px; top:120px; font-size:0.88rem; color:#444;">Energy ∩ Symmetry</div>
+    </div>
+    <p style="max-width:520px; margin:0;">
+      Conceptual overlap of energy and symmetry spaces. In practice, classification uses nearest‑centroid in the
+      joint feature space; smoothness acts as a third axis to widen margins where energy–symmetry clusters are close.
+    </p>
+  </div>
+
+  <!-- Method anchors linking to your code and notebook sections -->
+  <div style="border-top:1px solid #eee; margin-top:20px; padding-top:16px;">
+    <h3 style="margin:0 0 8px;">Method</h3>
+    <ul style="margin:0; padding-left:18px;">
+      <li>
+        Composite signal per vowel:
+        <a href="#detail-wxmaxima">wxMaxima code</a> using prime-factor sinusoids and step-function geometry (see Intro and detail sections).
+      </li>
+      <li>
+        Sampling and trapezoidal features:
+        discrete grid over L; energy, symmetry, smoothness computed numerically for robust plotting in README.
+      </li>
+      <li>
+        Centroids and margins:
+        nearest‑centroid rule; visualize samples and centroids with colors A/E/I/O/U.
+      </li>
+      <li>
+        FFT and matrices:
+        Fraunhofer‑style intensity via 2D FFT of separable apertures, consistent with your repo framing.
+      </li>
+    </ul>
+  </div>
+
+  <!-- CTA to examples and site -->
+  <div style="text-align:center; margin-top:18px;">
+    <a href="src/" style="display:inline-block; padding:8px 12px; border:1px solid #ddd; border-radius:6px; text-decoration:none; color:#333;">
+      Browse source examples
+    </a>
+    <a href="https://cbroemse.github.io/fft-sinoid_compute/index.html" style="display:inline-block; padding:8px 12px; border:1px solid #ddd; border-radius:6px; text-decoration:none; color:#333; margin-left:8px;">
+      Project site
+    </a>
+  </div>
+</div>
+

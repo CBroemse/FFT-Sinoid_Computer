@@ -180,7 +180,7 @@ explicit(stepFu(x,6),x,-10,67), key   = "fs : a computed element that can be plu
   <div style="display:flex; gap:16px; justify-content:center; align-items:center; flex-wrap:wrap; margin: 12px 0 20px;">
     <div style="display:flex; align-items:center; gap:8px;">
       <span style="width:14px; height:14px; background:#2ecc71; border-radius:50%; display:inline-block;"></span>
-      <span style="font-weight:600;">A</span>
+      <span style="font-weight:600;">A <a href="#observe">set to algo</a><br></span>
     </div>
     <div style="display:flex; align-items:center; gap:8px;">
       <span style="width:14px; height:14px; background:#1abc9c; border-radius:50%; display:inline-block;"></span>

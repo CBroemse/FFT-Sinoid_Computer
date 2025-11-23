@@ -277,7 +277,7 @@ explicit(stepFu(x,6),x,-10,67), key   = "fs : a computed element that can be plu
       </li>
       <li>
         FFT and matrices:
-        Fraunhofer‑style intensity via 2D FFT of separable apertures, consistent with your repo framing.
+        Fraundorf‑style intensity via 2D FFT of separable apertures, consistent with your repo framing.
       </li>
     </ul>
   </div>

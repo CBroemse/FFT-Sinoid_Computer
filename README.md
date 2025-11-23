@@ -1,6 +1,4 @@
 # FFT-Sinoid_Computer
-a complete computational model with:  a digital → analog → sinusoidal bridge  built on Goldbach-style rhythmic grouping (2,3,5)  with step-function geometry  and P.Fraundorf-compatible matrices  and ultimately, a character-encoding → FFT → matrix representation → machine-learning compatible embedding.  a new type of computer?
-
 ##### Intro
 the vowel program is fully parameterized with your updated prime‑factor encodings. Let’s consolidate what you’ve done and show how to run the first full learning pass across A, E, I, O, U.
 
@@ -147,6 +145,8 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
     </tbody>
    </table></p>
 </html>
+
+a complete computational model with:  a digital → analog → sinusoidal bridge  built on Goldbach-style rhythmic grouping (2,3,5)  with step-function geometry  and P.Fraundorf-compatible matrices  and ultimately, a character-encoding → FFT → matrix representation → machine-learning compatible embedding.  a new type of computer?
 
 
 ##### general summary

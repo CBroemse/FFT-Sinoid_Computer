@@ -170,7 +170,7 @@ explicit(stepFu(x,6),x,-10,67), key   = "fs : a computed element that can be plu
 
   <!-- Title and tagline -->
   <div style="text-align:center; margin-bottom: 16px;">
-    <h2 style="margin:0 0 4px;">Vowel feature geometry</h2>
+    <h2 style="margin:0 0 4px;">Char feature geometry</h2>
     <p style="margin:4px 0 0; color:#666;">
       Energy, symmetry, and smoothness in the sinus–step composite, aligned with your FFT–matrix workflow.
     </p>
@@ -179,6 +179,7 @@ explicit(stepFu(x,6),x,-10,67), key   = "fs : a computed element that can be plu
   <!-- Quick legend -->
   <div style="display:flex; gap:16px; justify-content:center; align-items:center; flex-wrap:wrap; margin: 12px 0 20px;">
     <div style="display:flex; align-items:center; gap:8px;">
+		<h5 style="margin:0 0 4px;">vowel feature geometry</h5>
       <span style="width:14px; height:14px; background:#2ecc71; border-radius:50%; display:inline-block;"></span>
       <span style="font-weight:600;">A <a href="#observe">set to algo</a><br></span>
     </div>

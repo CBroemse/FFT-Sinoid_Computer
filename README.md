@@ -1,4 +1,4 @@
-# FFT-Sinoid_Computer
+## FFT-Sinoid_Computer
 ##### Intro
 the vowel program is fully parameterized with your updated prime‑factor encodings. Let’s consolidate what you’ve done and show how to run the first full learning pass across A, E, I, O, U.
 

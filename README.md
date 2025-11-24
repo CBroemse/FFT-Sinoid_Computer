@@ -155,7 +155,7 @@ define(yo(t), ratsimp(imagpart(LnMax(%i*t))));
 links to the reverse fft and is the first path taken here. 
 LN4: Lnopqr(1); LN3: Lnopq(1); LN2: Lnop(1); LN1: Lno(1); 
 finally achieves the 4x4 Fraundorf . "certain points" inserts data points into a structure. As it turns out it delives intersection points to our key = "fe where y=1 -> 2^1, y=2 -> 4x4, fe where y=4 -> 8x8" Faundorf link and the chars. If we where literally meassuring currants and voltages in a real device that make use of all of this system described here there is the question waether to normalize all to just allow for y > 0 as we are only intersted into x > 0 for now. But this might not be so important andcan be adjusted alteron. Lets focus on your 'Learning system
-' as you can see the vowel A and E are a very symetric structure and both are the bedrock for language. So we have defined fourier influenced system to describe language itself but we are dealing with a functional level and sinoids not with chars anymore, but yes all code can be put into this, would be very interesting to start learning algos from here.
+' as you can see the vowel A and E are a very symetric structure and both are the bedrock for language. So we have defined a Fourier transformation (FFT and reverse FFT )influenced system to describe language itself but we are dealing with a functional level and sinoids not with chars anymore, but yes all code can be put into this, would be very interesting to start learning algos from here.
 
 
 ##### detail wxmaxima

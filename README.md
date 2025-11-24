@@ -150,7 +150,7 @@ a complete computational model with:  a digital → analog → sinusoidal bridge
 
 
 ##### general summary
-Set oand tune the stepped function and the sinoid. The amplitude is set to 12 by stMu2(x) := stepFu(x,12); This fits into the Frauendorf 2d level in the fourier visuial provided. This is not a choice of pure logic more a step of try and error seing what happens. I believe there are not many humans that could do that steps in their head without having it to write down. Thats why i just tried. lists and matrices(LnMax) functions is my attempt to bridge from Fraundorf to Goldbach conjecture. Where I took reverse steps starting with the 4x4 matrix and retraced it in way it fits with goldbach. This more an engineering attempt because the steps taken where a neccassity to make it work rather than an mathematical proof. So
+Set and tune the stepped function and the sinoid. The amplitude is set to 12 by stMu2(x) := stepFu(x,12); This fits into the Frauendorf 2d level in the fourier visuial provided. This is not a choice of pure logic more a step of try and error seing what happens. I believe there are not many humans that could do that steps in their head without having it to write down. Thats why i just tried. lists and matrices(LnMax) functions is my attempt to bridge from Fraundorf to Goldbach conjecture. Where I took reverse steps starting with the 4x4 matrix and retraced it in way it fits with goldbach. This more an engineering attempt because the steps taken where a neccassity to make it work rather than an mathematical proof. So
 define(yo(t), ratsimp(imagpart(LnMax(%i*t))));
 links to the reverse fft and is the first path taken here. 
 LN4: Lnopqr(1); LN3: Lnopq(1); LN2: Lnop(1); LN1: Lno(1); 

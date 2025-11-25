@@ -206,12 +206,11 @@ a complete computational model with:
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="#bene" id="binary form" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">up</a>
 <a href="#stream1" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">next</a>
-<textarea  name="#message2" class="storyTeller"  style:"color: red" rows="43" cols="50">
-Layer of Primes	
- axiom_0.1 Goldbachs weak conjecture
-
-Binary Form 
-main topic 
+<textarea  id="lnFunctions" class="storyTeller"  style:"color: red" rows="43" cols="50">
+Ln-Functions	
+fst: axiom_0.1 Goldbachs weak conjecture
+snd: list/array form 
+  main: Ln-Functions dev road-map 
   * export tnList for LnMax, LnBreak, Ln..Lnopqr (0.1.2)
   *  switch between     FT(tn)    ->  inverse_FT(FT(tn))
 	       fftpack5_fft(tnList) -> fftpack5_inverse_fft(tnList)
@@ -227,7 +226,7 @@ main topic
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="#bene" id="summary" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">up</a>
 <a href="#stream1" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">next</a>
-<textarea  name="goldbach" class="storyTeller"  style:"color: red" rows="43" cols="50">
+<textarea id="goldbach" class="storyTeller"  style:"color: red" rows="43" cols="50">
 # Due to Goldbach's weak conjecture
 of all LnMax, LnBreak, Ln..Lnopqr functions some carry
 an x for multiplication to their coefficients of the
@@ -259,7 +258,7 @@ the basic function
 
      xraw is used to construct
 the main ?data-structure? 
-
+  from below the prime goldbach structure is 
 function LnMax(x)                                     
 lists                                  A\\ ib        B\\ia     
  x   x      a1*a1*a1     1  1   3A    1  1    3     1 1  3ia

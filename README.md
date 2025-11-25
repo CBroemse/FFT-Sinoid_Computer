@@ -158,6 +158,75 @@ finally achieves the 4x4 Fraundorf . "certain points" inserts data points into a
 ' as you can see the vowel A and E are a very symetric structure and both are the bedrock for language. So we have defined a Fourier transformation (FFT and reverse FFT )influenced system to describe language itself but we are dealing with a functional level and sinoids not with chars anymore, but yes all code can be put into this, would be very interesting to start learning algos from here.
 
 
+##### 1. Load tools
+    load("fftpack5")$
+    load("fft")$
+    load(draw)$
+    load(quadpack)$
+	
+##### 2. Step functions and Fourier envelope
+   stepFu(x,rythm) := if x >= -rythm and x < 0 then -rythm
+                   elseif x >= 0 and x <= rythm then rythm
+                   else 0$
+
+    bn : -(10*cos(%pi*n/2)-10)/(%pi*n)$
+    define(b(n), bn)$
+
+    fs(nmax,x) := sum( b(m)*sin(m*%pi*x/10), m, 1, nmax )$
+
+##### 3. Vowel codes (your sine-product primes)
+     charA(x) := 6*sin(5*x/6)*sin(13*x/6)$
+     charE(x) := 6*sin(3*x/6)*sin(23*x/6)$
+     charI(x) := 6*sin(x/6)*sin(73*x/6)$
+     charO(x) := 6*sin(x/6)*sin(79*x/6)$
+     charU(x) := 6*sin(5*x/6)*sin(17*x/6)$
+
+##### 4. Combined signal builder
+     signal(x) = stepFu(x,12) + fs(32,x) + charVowel(x)
+	 
+We define a function constructor:
+
+	 make_signal(charfun) := lambda([x],
+     stepFu(x,12) + fs(32,x) + charfun(x)
+     )$
+	 
+Define all vowels:
+
+   sigA : make_signal(charA)$
+   sigE : make_signal(charE)$
+   sigI : make_signal(charI)$
+   sigO : make_signal(charO)$
+   sigU : make_signal(charU)$
+
+##### 5. Feature extractors (always numeric!)
+###### Energy
+     energy(sig,L) :=
+    quad_qags(lambda([x], float(sig(x)^2)), x, 0, L)[1]$
+###### Symmetry
+    symmetry(sig,L) :=
+    quad_qags(lambda([x], float(sig(x)*sig(-x))), x, 0, L)[1]$
+###### Smoothness
+     smooth(sig,L) :=
+     quad_qags(lambda([x], float(diff(sig(x),x)^2)), x, 0, L)[1]$
+
+##### 6. Compute features for each vowel
+     L : 10$
+	 
+     featuresA : [energy(sigA,L), symmetry(sigA,L), smooth(sigA,L)]$
+     featuresE : [energy(sigE,L), symmetry(sigE,L), smooth(sigE,L)]$
+     featuresI : [energy(sigI,L), symmetry(sigI,L), smooth(sigI,L)]$
+     featuresO : [energy(sigO,L), symmetry(sigO,L), smooth(sigO,L)]$
+     featuresU : [energy(sigU,L), symmetry(sigU,L), smooth(sigU,L)]$
+
+     print("A=",featuresA)$
+     print("E=",featuresE)$
+     print("I=",featuresI)$
+     print("O=",featuresO)$
+     print("U=",featuresU)$
+
+##### 7. Centroid per vowel class
+     Do we really continue with Centroids and what does that exactly
+	 contain???
 ##### detail wxmaxima
 newer older wrong "A" = char 65 -> 5*13 -> charA "e" = char 65 -> 5*13 -> charE "E" = char 69 -> 3*23 -> charE "i" = char 69 -> 3*23 -> charI "I" = char 73 -> 1*73 -> charI "O" = char 79 -> 1*79 -> charO "U" = char 85 -> 5*17 -> charU this was a comment now wxmaxima code : mCP: string_to_octets("AEIOU", "cp1252"); and here the updated chars : charA(x) := (sin((5/6)*x)*sin((13/6)*x))*6; charE(x) := (sin((3/6)*x)*sin((23/6)*x))*6; charI(x) := (sin((1/6)*x)*sin((73/6)*x))*6; charO(x) := (sin((1/6)*x)*sin((79/6)*x))*6; charU(x) := (sin((5/6)*x)*sin((17/6)*x))*6;
 

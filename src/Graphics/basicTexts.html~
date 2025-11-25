@@ -209,9 +209,17 @@ a complete computational model with:
 <textarea  name="#message2" class="storyTeller"  style:"color: red" rows="43" cols="50">
 Layer of Primes	
  axiom_0.1 Goldbachs weak conjecture
- write promi <a href="https://github.com/CBroemse/ReadMeGitBeginner#linux" target="_new">linux:</a>
 
 Binary Form 
+main topic 
+  * export tnList for LnMax, LnBreak, Ln..Lnopqr (0.1.2)
+  *  switch between     FT(tn)    ->  inverse_FT(FT(tn))
+	       fftpack5_fft(tnList) -> fftpack5_inverse_fft(tnList)
+	or            inverse_FT(tn)    ->  FT((inverse_FT(tn))
+	or ..? continue or not
+  *  build polynominal expansion of 'switch' above 
+	   * plot 'switch' , polynominals,
+ 'last paragraph' 2 elements of pulse with period 20
 
 </textarea>
 <br><br>
@@ -219,13 +227,12 @@ Binary Form
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="#bene" id="summary" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">up</a>
 <a href="#stream1" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">next</a>
-<textarea  name="message3" class="storyTeller"  style:"color: red" rows="43" cols="50">
-Summary 
-# Goldbach's weak comjecture
-of all LnMax, LnBreak, Ln..Lnopqr functions some carr
-y an x for multilpication to their coefficients of the
+<textarea  name="goldbach" class="storyTeller"  style:"color: red" rows="43" cols="50">
+# Due to Goldbach's weak conjecture
+of all LnMax, LnBreak, Ln..Lnopqr functions some carry
+an x for multiplication to their coefficients of the
 resulting LN1 .. LN4 (some don't)
-hinting at liniear vs exponential  ?'group of functions'? 
+hinting at linear vs exponential  ?'group of functions'? 
 with LnMax, LnBreak, Ln..Lnopqr  
     n of a && n of b 
 
@@ -238,19 +245,8 @@ with LnMax, LnBreak, Ln..Lnopqr
  null line numbers used as coefficients as
  product of a*b in functions?
 
-'* a'-1 means a9=30 => a'-1=29 
+'* a'-1 means a9=31 => a'-1=29 
 	
-main topic 
-  * export tnList for LnMax, LnBreak, Ln..Lnopqr (0.1.2)
-  *  switch between     FT(tn)    ->  inverse_FT(FT(tn))
-	       fftpack5_fft(tnList) -> fftpack5_inverse_fft(tnList)
-	or            inverse_FT(tn)    ->  FT((inverse_FT(tn))
-	or ..? continue or not
-  *  build polynominal expansion of 'switch' above 
-	   * plot 'switch' , polynominals,
- 'last paragraph' 2 elements of pulse with period 20
-	          
-
 </textarea>
 <br><br>
  </div>
@@ -360,24 +356,29 @@ newer                                                        older wrong
  </div>
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
-<textarea id="stream2" class="storyTeller" rows="43" cols="50">
-A vowel == 2 prim factors in this definition
-a consonat >= 2prim factors
-<a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
+<textarea id="charPrimeFactors" class="storyTeller" rows="43" cols="50">
+in this definition
+ a vowel == 2 prim factors 
+ a consonat >= 2prim factors
 
-so all vowels are pointsymetric to ech other
-here: vonsonats can be prim or one more factor needed
+so all vowels are pointsymetric to each other
 like in this example. Every char that is a consonat and has this 
-2nd order prim order is  very different from the vowls
+prim order > 2  is  very different from the vowls
 we are dealing with another peridoic function that is off set from
-vowels be  ?????
+vowels.
 </textarea>
 <br><br>
  </div>
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea id="stream2Sum" class="storyTeller" rows="43" cols="50">
-Seee the stepped function, the fs function  the ???? a , the activator ( transistor like) function, the fs  and finally the
+See the 
+stepped function,
+the fs functio
+n  the ???? a ,
+the activator ( transistor like) function,
+the fs
+and finally the
 two symetric fraundorf foureir encoded letters A and E
 that are point symetric to each other
 
@@ -388,8 +389,10 @@ that are point symetric to each other
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea id="stream3" class="storyTeller" rows="43" cols="50">
-see the three basic metric functions: stepped function, fs function and  ???? plus sone point
-that are some form of testing intrument taht can attach to all functions here like a nerv bundl
+Some points are coordinate pairs inserted into
+th ????? function
+they are some form of testing intrument that
+can attach to all functions here like a nerv bundl
 
 </textarea>
 <br><br>
@@ -398,10 +401,10 @@ that are some form of testing intrument taht can attach to all functions here li
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea id="stream3Sum" class="storyTeller" rows="43" cols="50">
 The two fs and step.functional(fourier) Fraundorf conform
-functions. Both have beeen tuned to LLisp char encoding
-to plot the letters A and E with 12 amplitufde and 12 langitude
-Another noteowrthy N is the numner 6 here because thechar
-encoding was tunded to it experimentallly
+functions have been tuned to Lisp char encoding
+to plot the letters A and E with 12 amplitude and ? 12 longitude ?
+Another noteworthy N is the numner 6 here because the char
+encoding was tunded to it experimentally.
 
 </textarea>
 <br><br>
@@ -409,44 +412,6 @@ encoding was tunded to it experimentallly
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" id="basicboot1" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea class="storyTeller" rows="43" cols="50">
-Basicboot1
-
- Recover after a programming break
-c:/Desktop/RecoverHerbst2022/
-
-#NodesJS
- A way to boot basic JS functions into
- an environment.
-
- gather: gatherLinux
- deepest layer very light linux  with
- custom functions:
- - addWords
- 
- 
- basic boot:  basicboot1
-
- uses 3 destinct JS files that depent on each other
-
- 3 depends on 2
- 2 depends on 1
- hence =>
- 1 >> 2 >> 3
-
--- cd to folder
-  c:/Desktop/RecoverHerbst2022/NodesJS
-
--- boot file 1
-  >node 
--- in node
-  > .load short1.js
-  > .load outThere01Com.js
-  > .load short2.js
-
-=> Established basicboot1
-# Connect with Haskell Repo
- -- open JsdbIframe
-  > stack exec JsdbIframe-exe
 
 </textarea>
 <br><br>
@@ -454,32 +419,6 @@ c:/Desktop/RecoverHerbst2022/
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="C:/Users/USER/Desktop/RecoverHerbst2022/LinuxBasedBasicboot1.svg"  id="basicboot1Sum" style="border-radius: 12px; padding: 2px 5px;" target="iframe_0">runKBASE</a>
 <textarea class="storyTeller" rows="43" cols="50">
-Basicboot1 Summary
- basic boot:  basicboot1
-
- uses 3 destinct JS files that depent on each other
-
- 3 depends on 2
- 2 depends on 1
- hence =>
- 1 >> 2 >> 3
-
--- cd to folder
-  c:/Desktop/RecoverHerbst2022/NodesJS
-
--- boot file 1
-  >node 
--- in node
-  > .load short1.js
-  > .load outThere01Com.js
-  > .load short2.js
-
-=> Established basicboot1
-# Connect with Haskell Repo
- -- open JsdbIframe
-  > stack exec JsdbIframe-exe
-
-
 </textarea>
 <br><br>
  </div>

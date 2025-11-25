@@ -1,0 +1,21 @@
+4. Combined signal builder
+
+For each vowel:
+
+signal(x) = stepFu(x,12) + fs(32,x) + charVowel(x)
+
+
+We define a function constructor:
+
+make_signal(charfun) := lambda([x],
+     stepFu(x,12) + fs(32,x) + charfun(x)
+)$
+
+
+Define all vowels:
+
+sigA : make_signal(charA)$
+sigE : make_signal(charE)$
+sigI : make_signal(charI)$
+sigO : make_signal(charO)$
+sigU : make_signal(charU)$

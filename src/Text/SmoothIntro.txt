@@ -1,0 +1,2 @@
+smooth(sig,L) :=
+    quad_qags(lambda([x], float(diff(sig(x),x)^2)), x, 0, L)[1]$

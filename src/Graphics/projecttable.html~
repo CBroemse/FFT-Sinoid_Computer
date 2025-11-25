@@ -114,13 +114,13 @@
       </td>
       <td>
      <details> <summary></summary>        
-             <a href="#write-function" src = "infodesign.png" >usage</a><br>
+             <a href="#write-function" src = "infodesign.png" target ="_self">usage</a><br>
              <a href="#run/execute-(exec)">select polygon</a><br>
              <a href="#wait-for-computation">render polygon</a><br>
              <a href="#delete-vs-truncate">export js objectS</a>
       </details>
      </td>
-            <td><a href="../Text/Vowels.txt" target"iframe_b" >Vowels</a></td>
+            <td><a href="../Text/Vowels.txt" target="iframe_b" >Vowels</a></td>
       <td>  <details> <summary></summary> 
       <a href="https://plot.ly/16263/~jackp/">Help</a>
       </details></td>

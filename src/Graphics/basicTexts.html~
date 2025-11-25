@@ -184,7 +184,7 @@ function w3_close() {
 
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 	<a href="#summary" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">next</a>
-<textarea id="bene" name="message" class="storyTeller" rows="43" cols="50">
+<textarea id="bene" name="message1" class="storyTeller" rows="43" cols="50">
 Welcome 
 
 a complete computational model with:
@@ -206,19 +206,12 @@ a complete computational model with:
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="#bene" id="binary form" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">up</a>
 <a href="#stream1" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">next</a>
-<textarea  name="message" class="storyTeller"  style:"color: red" rows="43" cols="50">
-Layer of JS	
- axiom_0.1
- write promises with <a href="https://github.com/CBroemse/ReadMeGitBeginner#linux" target="_new">linux:</a>
+<textarea  name="#message2" class="storyTeller"  style:"color: red" rows="43" cols="50">
+Layer of Primes	
+ axiom_0.1 Goldbachs weak conjecture
+ write promi <a href="https://github.com/CBroemse/ReadMeGitBeginner#linux" target="_new">linux:</a>
 
 Binary Form 
-Every list can be issued with the
-rule to have only unique ocurrances of name lines
-under ther premise that every line only uses its first
-word with ' ' empty space as a break occure.
-
-With this scripts it will be to use Or not to use:
-addWords()
 
 </textarea>
 <br><br>
@@ -226,7 +219,7 @@ addWords()
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="#bene" id="summary" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">up</a>
 <a href="#stream1" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">next</a>
-<textarea  name="message" class="storyTeller"  style:"color: red" rows="43" cols="50">
+<textarea  name="message3" class="storyTeller"  style:"color: red" rows="43" cols="50">
 Summary 
 # Goldbach's weak comjecture
 of all LnMax, LnBreak, Ln..Lnopqr functions some carr
@@ -299,7 +292,7 @@ Lnopqr(x) := [xraw(x,x,3), xraw(x,x,13), xraw(x,x,23), xraw(x,3,11)];
  </div>
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">runKBASE</a>
-<textarea id="stream1myDict" class="storyTeller" rows="43" cols="50">
+<textarea id="implications1" class="storyTeller" rows="43" cols="50">
 "certain points" inserts data points into a structure.
 As it turns out it delives intersection points to our 
           key = "fe where y=1 -> 2^1, y=2 -> 4x4, 
@@ -324,97 +317,69 @@ But this might not be so important andcan be adjusted alteron. Lets
  </div>
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">runKBASE</a>
-<textarea id="stream1myDict" class="storyTeller" rows="43" cols="50">
+<textarea id="implications2" class="storyTeller" rows="43" cols="50">
  -->	fe(desVal,s) := (((1*s)/(desVal-1)*1* s * 1*s)) /%e;
 (%o14)	fe(desVal,s):=((1·s)/(desVal-1)·1·s·1·s)/%e
+ -->	fE(desVal,s) := sum(b(s)*(((s^3)/(desVal-1)) *s), s, s, desVals);
+(%o15)	fE(desVal,s):=sum(b(s)·(s^3/(desVal-1)·s),s,s,desVals)
+ -->	fE(desVal,s) := sum(b(s)*(((s^3)/(desVal-1)) *s), s, s, desVals);
+(%o15)	fE(desVal,s):=sum(b(s)·(s^3/(desVal-1)·s),s,s,desVals)
 
-Fe a ?constructor function?
+Fe ?constructor function? versus 'fs'
 ----------------
     function       purpose    
     --------       -----       
-    fe            a sinoidal constructor
-                
-                aDict1.sh
-
-takefstCollumnOfwordsFile = fstCol
-
-     fstCol	unique1.sh   unique2.sh
-                 
-		             unique3.sh
-
- build a function with if clauses
- that frequently write to file:
-
- 'pipelineFrequency.sh'
-
-  the purpose is to run automaticaly e.g 10min per day
-  without taking to much memory. 
-  =>Shall be connected to git actions ...
-
-
+    fe            a complex/i constructor
+    fE                "
+    fs            a sinoidal constructor
+    
+    stepFu        a fft driven encoder
 </textarea>
 <br><br>
  </div>
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a id="linkI1" href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">runKBASE</a>
-<textarea class="storyTeller" rows="43" cols="50">
-STREAM I Purpose
+<textarea id="charsDetail" class="storyTeller" rows="43" cols="50">
+newer                                                        older wrong
+	 "A" = char 65 ->  5*13  -> charA              "e" = char 65 ->  5*13  -> charE
+	 "E" = char 69 ->  3*23  -> charE               "i" = char 69 ->  3*23  -> charI
+	 "I"  = char 73 ->  1*73  -> charI
+	 "O" = char 79 ->  1*79  -> charO
+	 "U" = char 85 ->  5*17  -> charU
 
- of addWords in 
-  
- file 'addToDict.sh'
+ -->	mCP: string_to_octets("AEIOU", "cp1252");
+(%o30)	[65,69,73,79,85]
 
- -- build a function with if clauses
-    that frequently write to file:
-
- 'pipelineFrequency.sh'
-
-  the purpose is to run automaticaly e.g 10min per day
-  without taking to much memory. 
-  =>Shall be connected to git actions ...
-
-
+	charA(x):=sin(5/6·x)·sin(13/6·x)·6
+	charE(x):=sin(3/6·x)·sin(23/6·x)·6
+	charI(x):=sin(1/6·x)·sin(73/6·x)·6
+	charO(x):=sin(1/6·x)·sin(79/6·x)·6
+	charU(x):=sin(5/6·x)·sin(17/6·x)·6
 </textarea>
 <br><br>
  </div>
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea id="stream2" class="storyTeller" rows="43" cols="50">
-STREAM II
+A vowel == 2 prim factors in this definition
+a consonat >= 2prim factors
+<a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 
-  - boot a node JS server
-  - generae DATA_STREAM2
-    in outThere01Com.js
-  
- file 'streamII.sh'
-
-
- build a function with if clauses
- that frequently write to file:
-
- 'pipelineFrequency.sh'
-
-  the purpose is to run automaticaly e.g 10min per day
-  without taking to much memory. 
-  =>Shall be connected to git actions ...
-
-
+so all vowels are pointsymetric to ech other
+here: vonsonats can be prim or one more factor needed
+like in this example. Every char that is a consonat and has this 
+2nd order prim order is  very different from the vowls
+we are dealing with another peridoic function that is off set from
+vowels be  ?????
 </textarea>
 <br><br>
  </div>
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea id="stream2Sum" class="storyTeller" rows="43" cols="50">
-STREAM II Summary
-
- STREAM II
--- cd to c:/gitLinShell
-*> node        -- open node
-> .load short1.js
-> .load outThere01Com.js
-> .load short2.js
- Where is basicboot1 located? Needs new repo on git?"
-
+Seee the stepped function, the fs function  the ???? a , the activator ( transistor like) function, the fs  and finally the
+two symetric fraundorf foureir encoded letters A and E
+that are point symetric to each other
 
 </textarea>
 <br><br>
@@ -423,22 +388,8 @@ STREAM II Summary
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea id="stream3" class="storyTeller" rows="43" cols="50">
-STREAM III
-
-  - runs Haskell repo 'JsdbIframe' via git
-  
- file 'streamII.sh'
-
-
- build a function with if clauses
- that frequently write to file:
-
- 'pipelineFrequency.sh'
-
-  the purpose is to run automaticaly e.g 10min per day
-  without taking to much memory. 
-  =>Shall be connected to git actions ...
-
+see the three basic metric functions: stepped function, fs function and  ???? plus sone point
+that are some form of testing intrument taht can attach to all functions here like a nerv bundl
 
 </textarea>
 <br><br>
@@ -446,12 +397,11 @@ STREAM III
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_a">runKBASE</a>
 <textarea id="stream3Sum" class="storyTeller" rows="43" cols="50">
-STREAM III Summary
-
- STREAM III
--- cd to c:/gitLinShell
-*> .testSHonwin.sh     
-
+The two fs and step.functional(fourier) Fraundorf conform
+functions. Both have beeen tuned to LLisp char encoding
+to plot the letters A and E with 12 amplitufde and 12 langitude
+Another noteowrthy N is the numner 6 here because thechar
+encoding was tunded to it experimentallly
 
 </textarea>
 <br><br>

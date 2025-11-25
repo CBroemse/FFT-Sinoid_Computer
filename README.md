@@ -23,10 +23,8 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
       <td>
       <details> <summary></summary>        
           <details> <summary></summary>        
-             <a href="#write-function">arcitect</a><br>
-             <a href="#observe">2_3_5_Controller</a><br>
-             <a href="#run/execute-(exec)">PV-Variance</a><br>
-             <a href="#run/execute-(exec)">FFT_Controller_Types</a><br>
+             <a href="FourierseriesEtc.pdf #write-function" target="iframe_b">arcitect</a><br>
+            <a href="#run/execute-(exec)">FFT_Controller_Types</a><br>
              <a href="#wait-for-computation">examples</a><br>
              <a href="#delete-vs-truncate">visual</a>
           </details>
@@ -35,38 +33,28 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
       <td></td>
       <td><details> <summary></summary>        
              <a href="#write-function">BOOT</a><br><br>
-             <a href="#observe">2_3_5_Controller</a><br>
-             <a href="#run/execute-(exec)">PV-Variance</a><br>
-             <a href="#run/execute-(exec)">Als_Controller_Types</a><br>
-             <a href="#wait-for-computation">examples</a><br>
-             <a href="#delete-vs-truncate">visual</a>
-          </details></td>
+           </details></td>
       <td>  <details> <summary>GET</summary><br> 
-      <a href="#system-information">the_Gets</a><br>
+      <a href="imageAllVowelsandPoints. png #system-information">the_Gets</a><br>
       <a href="#system-information">hard_problem</a><br>
-             <a href="#virtual-box">modi operandi</a>
+             <a href="2Activations_Fs_SchalteChar.png #virtual-box">modi operandi</a>
       </details></td>
       <td>  <details> <summary></summary><br> 
       <a href="#system-information">the_Runs</a><br>
-      <a href="#system-information">hard_problem</a><br>
-             <a href="#virtual-box">modi operandi</a>
-      </details></td>
+       </details></td>
       <!------------------------------------------------------------------ Hub -->
     </tr>
     <tr>
-      <!-- -------------------------------------------------------------------------------------------------- ALS erstes-->
+      <!-- -------------------------------------------------------------------------------------------------- Prime Goldbach groups-->
       <td>
       <details> <summary>Primes</summary>        
              <a href="#write-function">intro</a><br>
              <a href="#observe">3_controllers</a><br>
-             <a href="#run/execute-(exec)">usage</a><br>
-             <a href="#wait-for-computation">example</a><br>
-             <a href="#delete-vs-truncate">basics</a>
-      </details>
+       </details>
       </td>
       <td>
       <details> <summary>FS-function</summary>        
-             <a href="#write-function">arcitect</a><br>
+             <a href="FourierAndtActivation_Function2.png #write-function" target="iframe_b">fs-visiual</a><br>
              <a href="#observe"></a><br>
              <a href="#run/execute-(exec)">Als_mini</a><br>
              <a href="#run/execute-(exec)">Als_Controller</a><br>
@@ -74,7 +62,7 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
              <a href="#delete-vs-truncate">visual</a>
       </details>
       </td>
-      <td>  <details> <summary>Linux</summary> 
+      <td>  <details> <summary>WxMaxima</summary> 
       <a href="#system-information">arcitecture</a><br>
       </details></td>
       <td>  <details> <summary>FS_Function</summary><br> 
@@ -118,10 +106,10 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
   <tbody>
     <tr>
       <!-- -------------------------------------------------------------------------------------------------- CHARS-->
-      <td><a href="../ClusterExampleRohbau/Bhuvarloka/vida/examples/test01.html" target="iframe_b">CHARS</a></td>
+      <td><a href="imageAllVowelsAndPoints.png" target="iframe_c">CHARS</a></td>
       <td>
       <details> <summary></summary>        
-             <a href="#write-function" src = "infodesign.png" target ="_self">encoder</a><br>
+             <a href="../Texts/Combined_Signal_BuilderIntro.txt #encoder-function" target ="_self">encoder</a><br>
              <a href="#observe">set to algo</a><br>
              <a href="#run/execute-(exec)">chars_and_step_functions</a><br>
              <a href="#wait-for-computation">symetries</a><br>
@@ -131,13 +119,12 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
       <td>
      <details> <summary></summary>        
              <a href="#write-function" src = "infodesign.png" target ="_self">usage</a><br>
-             <a href="#observe">observe video</a><br>
              <a href="#run/execute-(exec)">select polygon</a><br>
              <a href="#wait-for-computation">render polygon</a><br>
              <a href="#delete-vs-truncate">export js objectS</a>
       </details>
      </td>
-            <td><a href="outThere01Com.txt/">Vowels</a></td>
+            <td><a href="../Text/Vowels.txt" target="iframe_b" >Vowels</a></td>
       <td>  <details> <summary></summary> 
       <a href="https://plot.ly/16263/~jackp/">Help</a>
       </details></td>

@@ -1,8 +1,5 @@
 ## FFT-Sinoid Computer
 ##### – Uniting Language, Numbers, and Signals
-##### Intro
-the vowel program is fully parameterized with your updated prime‑factor encodings. Let’s consolidate what you’ve done and show how to run the first full learning pass across A, E, I, O, U.
-
 <!DOCTYPE html>
 <p><table>
   <thead>
@@ -19,32 +16,6 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
     </tr>
   </thead>
     <tbody>
-    <tr>
-      <!-- -------------------------------------------------------------------------------------------------- Pre.Prog DEEP PrE ALS ++ MATHS-->
-      <td>
-      <details> <summary></summary>        
-          <details> <summary></summary>        
-             <a href="FourierseriesEtc.pdf #write-function" target="iframe_b">arcitect</a><br>
-            <a href="#run/execute-(exec)">FFT_Controller_Types</a><br>
-             <a href="#wait-for-computation">examples</a><br>
-             <a href="#delete-vs-truncate">visual</a>
-          </details>
-      </details>
-      </td>
-      <td></td>
-      <td><details> <summary></summary>        
-             <a href="#write-function">BOOT</a><br><br>
-           </details></td>
-      <td>  <details> <summary>GET</summary><br> 
-      <a href="imageAllVowelsandPoints. png #system-information">the_Gets</a><br>
-      <a href="#system-information">hard_problem</a><br>
-             <a href="2Activations_Fs_SchalteChar.png #virtual-box">modi operandi</a>
-      </details></td>
-      <td>  <details> <summary></summary><br> 
-      <a href="#system-information">the_Runs</a><br>
-       </details></td>
-      <!------------------------------------------------------------------ Hub -->
-    </tr>
     <tr>
       <!-- -------------------------------------------------------------------------------------------------- Prime Goldbach groups-->
       <td>
@@ -133,6 +104,11 @@ the vowel program is fully parameterized with your updated prime‑factor encodi
     </tbody>
    </table></p>
 </html>
+
+##### Intro
+    The FFT-Sinoid Computer is an experimental system that processes language not as text, but as signal. Vowels and characters
+	are translated into sinusoidal patterns, analyzed through     Fourier transformation, and linked with number theory.
+	The goal is a new computing model that unifies language, mathematics, and signal processing. 
 
 a complete computational model with:  a digital → analog → sinusoidal bridge  built on Goldbach-style rhythmic grouping (2,3,5)  with step-function geometry  and P.Fraundorf-compatible matrices  and ultimately, a character-encoding → FFT → matrix representation → machine-learning compatible embedding.  a new type of computer?
 

@@ -184,10 +184,12 @@ function w3_close() {
 
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 	<a href="#summary" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">next</a>
-<textarea id="bene" name="message1" class="storyTeller" rows="43" cols="50">
+<textarea id="bene" name="message1" class="storyTeller" rows="43" cols="70">
 Welcome 
-
-a complete computational model with:
+Signal world                              Envelop world
+------------ ( ready nightly version)     ------------
+(little dev no ai)                        full dev heavy ai 
+a complete computational model with: 
   a digital → analog → sinusoidal bridge
 
   built on Goldbach-style rhythmic grouping

@@ -85,7 +85,7 @@
       <a href="#system-information">arcitecture</a><br>
       </details></td>
             <td>  <details> <summary>def b(bn)</summary> 
-             <a href="signalWorld1o2.svg">compute b</a><br>
+             <a href="signalWorld1o2.svg" target="iframe_c">compute b</a><br>
              <a href="#virtual-box">modi operandi</a>
              </details></td>
       <!-- +++++++++++++++++++++++++++++++++++++
@@ -106,7 +106,7 @@
              <a href="AandEcharSymetry.png" target="iframe_c">A and E</a><br>
              <a href="VowelsPrimFstOrder_ConsonantsCANPrimofSet.png" target="iframe_c">A and B</a><br>
              <a href="../Text/SymetryIntro.txt" target="iframe_b">symetries</a><br>
-             <a href="../Text/EnergyIntro.txt" target="iframeb">energy/smoothness/...</a>
+             <a href="../Text/EnergyIntro.txt" target="iframe_b">energy/smoothness/...</a>
       </details>
       </td>
       <td>

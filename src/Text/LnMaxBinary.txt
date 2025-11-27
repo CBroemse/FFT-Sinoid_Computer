@@ -1,0 +1,30 @@
+Sinoid-Computer Level I
+the basic function
+     xraw(x,l,c) := x* l * c;    /* x * line * column */ 
+
+     xraw is used to construct
+the main ?data-structure? 
+  from below the prime goldbach structure is 
+function LnMax(x)                                     
+lists                                  A\\ ib        B\\ia     
+ x   x      a1*a1*a1     1  1   3A    1  1    3     1 1  3ia
+ x   a1     a1*a1*a1 -\  1  1A  3A -- 1  1    3 &&  1 i   3ia
+ x   b2     a1*a1*a1 -/  1  2B  3A -- 1  2ib  3     1 2   3ia
+ x   a1*a1  a1*a1*a1     1  2A  3A    1  2    3     1 2ia 3ia
+\\* without 
+** it would be nice to work with square matrices but above does not comply
+LnMax(x) :=  [xraw(x,1,8), xraw(x,2,8), xraw(x,3,8), xraw(x,4,8)];
+prepare reverse fft
+-->	define(yo(t), ratsimp(imagpart(LnMax(%i*t))));
+(%o10)  yo(t):=[8·t,16·t,24·t,32·t]
+
+Lno(x) := [xraw(x,x,x-1), xraw(x,2,5), xraw(x,2*2,5), xraw(x,2*3,5)];
+Lnop(x) := [xraw(x,x,x), xraw(x,x,11), xraw(x,x,7*3), xraw(x,x,31)];
+Lnopq(x) := [xraw(x,x,2), xraw(x,2,2*3), xraw(x,2,11), xraw(2*2*x,2*2,2*x)];
+Lnopqr(x) := [xraw(x,x,3), xraw(x,x,13), xraw(x,x,23), xraw(x,3,11)];
+
+ -->	LN4: Lnopqr(1); LN3: Lnopq(1); LN2: Lnop(1); LN1: Lno(1);
+(%o10)	[3,13,23,33]
+(%o11)	[2,12,22,32]
+(%o12)	[1,11,21,31]
+(%o13)	[0,10,20,30]

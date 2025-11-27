@@ -1,0 +1,27 @@
+ The importance of the YBand   
+ I was an imaginative scientist who build a device to make
+ a harddrive out of any rock and a computer out of any crystal
+ by shining light through the crystal from various angles in the device.
+ The device works well but now we are confronted with the problem
+ to calibrate a computer system into that crystals inherit structure.
+ We have to come up with a system that represents the refracting
+ light inside a perfect crystal and further down if to which degree
+ a not perfect crystal can do that, if possible at all. This sinoid
+ computer is one approach of a bigger file called stelsel that is
+ like the provided one 
+    main file 'FFT-Sinoid_Computer.wxmx'
+ just very more detailed. I first longed to generate natural numbers
+ as one of the premisses to the desired system.
+ That is done via our Goldbach system. Next we want to establish chars
+ and special signs. This is this very step. There is a hard construction
+ and design problem
+ that is a) how long keep the level (make shure our sinoid stays up where it
+ is in the model) up where it is and how this will be achieved if we are
+ dealing with damped oscillations (which is a physical trait of reality).
+ We could say , no damped oscillation, but that would limit the system and
+ maybe make other decisions unreachable further down. Hence I opted for
+ undamped in the first step and damped as snd . This YBoundry is our specially
+ build damped oscillator that we can apply to all sinoids to specify
+ messeruments and time.  b) This relates somehow to the next challange that
+ is to sequentially write letter like in 'hello world' and finally to being
+ able to retrieve letter from sinoids so to go reverse.

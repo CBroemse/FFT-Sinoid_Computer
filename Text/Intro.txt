@@ -1,0 +1,16 @@
+Welcome 
+Signal world                              Envelop world
+------------ ( ready nightly version)     ------------
+(little dev no ai)                        full dev heavy ai 
+a complete computational model with: 
+  a digital → analog → sinusoidal bridge
+
+  built on Goldbach-style rhythmic grouping
+  (2,3,5) 
+
+  with step-function geometry and
+
+  P.Fraundorf-compatible matrices and ultimately,
+  a character-encoding → FFT → matrix representation 
+
+  → machine-learning compatible embedding.

@@ -1,0 +1,2 @@
+energy(sig,L) :=
+    quad_qags(lambda([x], float(sig(x)^2)), x, 0, L)[1]$

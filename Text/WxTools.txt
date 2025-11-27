@@ -1,6 +1,0 @@
-1. Load tools
-
-load("fftpack5")$
-load("fft")$
-load(draw)$
-load(quadpack)$

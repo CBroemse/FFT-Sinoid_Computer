@@ -1,2 +1,0 @@
-symmetry(sig,L) :=
-    quad_qags(lambda([x], float(sig(x)*sig(-x))), x, 0, L)[1]$

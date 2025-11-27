@@ -1,0 +1,6 @@
+Basic Setting
+"Harmonics" is a fluffy word to decribe
+the given parametrization.
+The fst constraint comes from
+ - making shure we have intersection point at all.
+ - do all function intersection points have 

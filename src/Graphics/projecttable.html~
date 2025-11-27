@@ -44,8 +44,8 @@
       <!-- -------------------------------------------------------------------------------------------------- Prime Goldbach groups-->
       <td>
       <details> <summary>Primes</summary>        
-             <a href="#write-function">intro</a><br>
-             <a href="#observe">3_controllers</a><br>
+             <a href="fftTOfraundorf.svg" target="iframe_c">intro</a><br>
+             <a href="primesTOgoldbach.svg">construction</a><br>
        </details>
       </td>
       <td>
@@ -77,8 +77,8 @@
 	      <a href="2Activations_Fs_Schalte_Char.png" target="iframe_c">step-visiual</a><br>
              <a href="Graphics/basicTexts.html #implications2" target="iframe_c">why step-Functions</a><br>
 	      <a href="#simulate">6er_rythm</a><br>
-             <a href="Graphics/basicTexts.html #goldbach" target="iframe_c">Goldbach</a><br>
-             <a href="Graphics/basicTexts.html #stream1" target="iframe_c">Prime_binary_groups</a><br>
+             <a href="../Text/GoldbachIntro.txt" target="iframe_b">Goldbach</a><br>
+             <a href="../Text/LnMaxBinary.txt" target="iframe_c">Prime_binary_groups</a><br>
              </details>
       </td>
           <td>  <details> <summary>WxMaxima</summary> 

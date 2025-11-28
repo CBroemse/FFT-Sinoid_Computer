@@ -244,7 +244,8 @@ with LnMax, LnBreak, Ln..Lnopqr
  null line numbers used as coefficients as
  product of a*b in functions?
 
-'* a'-1 means a9=31 => a'-1=29 
+'* a'-1 means a9=31 => a'-1=29    
+or  a11 = 31 when counting a0 then b0 then null-group elements 
 	
 </textarea>
 <br><br>
@@ -287,7 +288,7 @@ Lnopqr(x) := [xraw(x,x,3), xraw(x,x,13), xraw(x,x,23), xraw(x,3,11)];
  </div>
 <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">runKBASE</a>
-<textarea id="implications1" class="storyTeller" rows="43" cols="50">
+<textarea id="implications" class="storyTeller" rows="43" cols="50">
 "certain points" inserts data points into a structure.
 As it turns out it delives intersection points to our 
           key = "fe where y=1 -> 2^1, y=2 -> 4x4, 
@@ -312,7 +313,7 @@ But this might not be so important andcan be adjusted alteron. Lets
  </div>
  <div class="column middle" name="odey" style="background-color:none;color:lime;">
 <a href="pfeil" style="border-radius: 12px; padding: 2px 5px;" target="iframe_b">runKBASE</a>
-<textarea id="implications2" class="storyTeller" rows="43" cols="50">
+<textarea id="implications" class="storyTeller" rows="43" cols="50">
  -->	fe(desVal,s) := (((1*s)/(desVal-1)*1* s * 1*s)) /%e;
 (%o14)	fe(desVal,s):=((1·s)/(desVal-1)·1·s·1·s)/%e
  -->	fE(desVal,s) := sum(b(s)*(((s^3)/(desVal-1)) *s), s, s, desVals);

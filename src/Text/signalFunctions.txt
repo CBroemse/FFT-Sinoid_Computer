@@ -1,0 +1,15 @@
+ -->	fe(desVal,s) := (((1*s)/(desVal-1)*1* s * 1*s)) /%e;
+(%o14)	fe(desVal,s):=((1·s)/(desVal-1)·1·s·1·s)/%e
+ -->	fE(desVal,s) := sum(b(s)*(((s^3)/(desVal-1)) *s), s, s, desVals);
+(%o15)	fE(desVal,s):=sum(b(s)·(s^3/(desVal-1)·s),s,s,desVals)
+ -->	fE(desVal,s) := sum(b(s)*(((s^3)/(desVal-1)) *s), s, s, desVals);
+(%o15)	fE(desVal,s):=sum(b(s)·(s^3/(desVal-1)·s),s,s,desVals)
+
+Fe ?constructor function? versus 'fs'
+----------------
+    function       purpose    
+    --------       -----       
+    fe            a complex/i constructor
+    fE                "
+    fs            a sinoidal constructor
+    stepFu        a fft driven encoder
